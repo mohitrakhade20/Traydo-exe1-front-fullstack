@@ -1,0 +1,47 @@
+.pizzaImg {
+  width: 130px;
+  margin-left: 50px;
+}
+
+.Pizza {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: solid 2px black;
+  /* background-color: blanchedalmond; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.outer-div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flexbox;
+  text-align: right;
+  padding-right: 50px;
+  /* justify-content: right; */
+  border: solid 2px black;
+  z-index: 2;
+}
+button {
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  /* margin-left: 25px; */
+}
+.checkbox {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border: 20px solid #007a7e;
+  border-radius: 30px;
+}
+
+.quantity {
+  padding: 10px;
+}
